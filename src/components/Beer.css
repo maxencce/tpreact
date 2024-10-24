@@ -1,0 +1,35 @@
+#beer-div {
+    width: 95%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#beer-delete-button {
+  aspect-ratio: 1;
+  background-color: transparent;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  min-height: 30px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#beer-delete-button:hover,
+#beer-delete-button:active {
+  background-color: initial;
+  color: #FF4742;
+}
